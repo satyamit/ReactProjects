@@ -1,9 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
 import TODOInput from './components/TODOInput';
 import { useState } from 'react';
 import TODOList from './components/TODOList';
 import TODOMain from './components/TODOMain';
+import Counter from './Counter/Counter';
 function App() {
   //const[listTodo,setListTodo]=useState([]);
   // let addList = (inputText)=>{
@@ -37,7 +38,8 @@ function App() {
     //   </div>
     // </div>
     <div>
-      <TODOMain/>
+      {/* <TODOMain/> */}
+      <Counter/>
     </div>
   );
 }
